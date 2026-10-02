@@ -1,0 +1,185 @@
+{
+  "profile": {
+    "name": "Builder",
+    "graduationYear": 2028,
+    "degree": "Finance & Banking",
+    "techWeeklyTargetMinutes": 600,
+    "chineseWeeklyTargetMinutes": 270,
+    "careerTarget": "AI-Native Fintech / Data / Operations Builder"
+  },
+  "roadmap": [
+    {
+      "id": "phase-0",
+      "title": "Phase 0 — Code Literacy",
+      "period": "Tuần 1–5",
+      "goal": "Đọc được code AI sinh ra và trace được data flow thay vì coi code là black box.",
+      "topics": [
+        {"id":"js-vars","title":"JS: variables, primitives, null/undefined","done":false},
+        {"id":"js-objects","title":"JS: objects & arrays","done":false},
+        {"id":"js-functions","title":"JS: functions & arrow functions","done":false},
+        {"id":"js-array-methods","title":"JS: map / filter / find / reduce","done":false},
+        {"id":"js-destructure","title":"JS: destructuring / spread / rest","done":false},
+        {"id":"js-modules","title":"JS: import / export / modules","done":false},
+        {"id":"js-async","title":"JS: Promise / async-await / try-catch","done":false},
+        {"id":"ts-core","title":"TypeScript: type / interface / union / narrowing","done":false},
+        {"id":"ts-generics","title":"TypeScript: generics / utility types / keyof / typeof","done":false},
+        {"id":"http","title":"Web: HTTP, request/response, JSON, cookies, status codes","done":false}
+      ]
+    },
+    {
+      "id": "phase-1",
+      "title": "Phase 1 — React Mental Model",
+      "period": "Tuần 6",
+      "goal": "Hiểu component, props, state, events và render trước khi học thuộc hooks.",
+      "topics": [
+        {"id":"react-components","title":"Components, props, composition","done":false},
+        {"id":"react-state","title":"State ownership & data flow","done":false},
+        {"id":"react-events","title":"Events, forms, controlled inputs","done":false},
+        {"id":"react-hooks","title":"useState / useEffect / useRef","done":false},
+        {"id":"react-thinking","title":"Hoàn thành Thinking in React","done":false}
+      ]
+    },
+    {
+      "id": "phase-2",
+      "title": "Phase 2 — Next.js Web App",
+      "period": "Tuần 7–8",
+      "goal": "Đọc và xây được một web app có client/server boundary rõ ràng.",
+      "topics": [
+        {"id":"next-router","title":"App Router: page / layout / dynamic routes","done":false},
+        {"id":"next-boundary","title":"Server vs Client Components","done":false},
+        {"id":"next-actions","title":"Server Actions & Route Handlers","done":false},
+        {"id":"next-data","title":"Data fetching, loading, errors, validation","done":false},
+        {"id":"next-course","title":"Hoàn thành Next.js Dashboard course","done":false}
+      ]
+    },
+    {
+      "id": "phase-3",
+      "title": "Phase 3 — Git, Linux & System Literacy",
+      "period": "Tuần 9–12",
+      "goal": "Biết lần theo hệ thống, đọc diff và thao tác server mà không phụ thuộc AI hoàn toàn.",
+      "topics": [
+        {"id":"git-core","title":"Git: status / diff / add / commit / branch / merge","done":false},
+        {"id":"git-review","title":"Review AI changes bằng git diff trước commit","done":false},
+        {"id":"node-ecosystem","title":"Node: package.json / scripts / env / dependencies","done":false},
+        {"id":"linux-core","title":"Linux: files / grep / find / tail / ps / curl / ssh","done":false},
+        {"id":"architecture","title":"Trace UI → action → logic → data access → storage","done":false}
+      ]
+    },
+    {
+      "id": "phase-4",
+      "title": "Phase 4 — SQL & PostgreSQL",
+      "period": "Tháng 4–5",
+      "goal": "Thiết kế dữ liệu trước ORM; hiểu transaction, constraint và index.",
+      "topics": [
+        {"id":"sql-core","title":"SELECT / WHERE / JOIN / GROUP BY / CRUD","done":false},
+        {"id":"db-relations","title":"PK / FK / 1-N / N-N / constraints","done":false},
+        {"id":"db-transactions","title":"Transactions & ACID","done":false},
+        {"id":"db-index","title":"Index / B-Tree / EXPLAIN mental model","done":false},
+        {"id":"drizzle","title":"Drizzle ORM sau khi hiểu SQL","done":false}
+      ]
+    },
+    {
+      "id": "phase-5",
+      "title": "Phase 5 — CRM v1 (No AI)",
+      "period": "Tháng 5–6",
+      "goal": "Xây một hệ thống CRUD thật mà bạn hiểu gần như 100% codebase.",
+      "topics": [
+        {"id":"crm-auth","title":"Users, roles, authentication concept","done":false},
+        {"id":"crm-leads","title":"Leads, status, notes, activities","done":false},
+        {"id":"crm-search","title":"Search, filters, pagination","done":false},
+        {"id":"crm-dashboard","title":"Dashboard cơ bản","done":false},
+        {"id":"crm-doc","title":"Architecture + database documentation","done":false}
+      ]
+    },
+    {
+      "id": "phase-6",
+      "title": "Phase 6 — Finance Data & Power BI",
+      "period": "Tháng 6–7",
+      "goal": "Nối bằng Finance & Banking với data modelling và business intelligence.",
+      "topics": [
+        {"id":"bi-query","title":"Power Query & data cleaning","done":false},
+        {"id":"bi-model","title":"Star schema / fact / dimension","done":false},
+        {"id":"bi-dax","title":"DAX measures & KPIs","done":false},
+        {"id":"bi-finance","title":"Build một finance/banking dashboard","done":false},
+        {"id":"pl300","title":"Thi PL-300 khi đã làm dashboard thật","done":false}
+      ]
+    },
+    {
+      "id": "phase-7",
+      "title": "Phase 7 — Python & AI Engineering",
+      "period": "Tháng 7–9",
+      "goal": "Dùng Python cho data/automation và tích hợp LLM có validation/evaluation.",
+      "topics": [
+        {"id":"py-core","title":"Python core / venv / pip / files / requests","done":false},
+        {"id":"py-pandas","title":"pandas / numpy / CSV / Excel / PDF","done":false},
+        {"id":"ai-api","title":"LLM API & structured outputs","done":false},
+        {"id":"ai-rag","title":"RAG / embeddings / chunking mental model","done":false},
+        {"id":"ai-evals","title":"Evals / retry / fallback / logging / token cost","done":false}
+      ]
+    },
+    {
+      "id": "phase-8",
+      "title": "Phase 8 — Mobile with React Native",
+      "period": "Sau khi React chắc",
+      "goal": "Tái sử dụng React + TypeScript để phục vụ cả iOS và Android.",
+      "topics": [
+        {"id":"rn-core","title":"React Native core components & styling","done":false},
+        {"id":"expo-router","title":"Expo Router: stack / tabs / modal","done":false},
+        {"id":"mobile-native","title":"Permissions / storage / camera / lifecycle","done":false},
+        {"id":"mobile-api","title":"API integration / auth / TanStack Query","done":false},
+        {"id":"mobile-app","title":"Build companion app dùng chung backend","done":false}
+      ]
+    },
+    {
+      "id": "phase-9",
+      "title": "Phase 9 — Production Engineering",
+      "period": "Tháng 9–11",
+      "goal": "Biến app chạy được thành hệ thống có thể vận hành và debug.",
+      "topics": [
+        {"id":"test","title":"Vitest / React Testing Library / Playwright","done":false},
+        {"id":"security","title":"Auth, RBAC, OWASP basics, secure storage","done":false},
+        {"id":"reliability","title":"Logging / monitoring / retry / idempotency","done":false},
+        {"id":"cache","title":"Cache / TTL / invalidation / rate limiting → Valkey","done":false},
+        {"id":"backup","title":"Migrations / backup / recovery","done":false}
+      ]
+    },
+    {
+      "id": "phase-10",
+      "title": "Phase 10 — Docker, Homelab & Cloud",
+      "period": "Tháng 10–14",
+      "goal": "Hiểu deployment trên homelab trước, sau đó chuyển mental model sang AWS.",
+      "topics": [
+        {"id":"docker","title":"Dockerfile / image / container / volume / network","done":false},
+        {"id":"compose","title":"Docker Compose","done":false},
+        {"id":"proxy","title":"Reverse proxy / DNS / HTTPS","done":false},
+        {"id":"cicd","title":"GitHub Actions / CI-CD","done":false},
+        {"id":"aws","title":"Deploy/debug trên AWS và thi Developer Associate","done":false}
+      ]
+    },
+    {
+      "id": "phase-11",
+      "title": "Phase 11 — 2027→2028 Proof of Work",
+      "period": "Đến tốt nghiệp 2028",
+      "goal": "2–3 hệ thống nghiêm túc ở giao điểm Finance × Data × Software × AI.",
+      "topics": [
+        {"id":"portfolio-finance","title":"Finance/Banking analytics system","done":false},
+        {"id":"portfolio-ops","title":"AI Sales/Operations CRM","done":false},
+        {"id":"portfolio-mobile","title":"Web + mobile dùng chung backend","done":false},
+        {"id":"portfolio-docs","title":"Architecture diagrams + README + demo video","done":false},
+        {"id":"applications","title":"Internship / graduate applications","done":false}
+      ]
+    }
+  ],
+  "sessions": [],
+  "codeLogs": [],
+  "expenses": [
+    {"id":"cost-pl300","item":"PL-300 exam","category":"Certification","amount":165,"currency":"USD","status":"Planned","note":"Ước tính; kiểm tra local pricing trước khi đăng ký."},
+    {"id":"cost-aws","item":"AWS Developer Associate exam","category":"Certification","amount":150,"currency":"USD","status":"Planned","note":"Ước tính; kiểm tra giá hiện hành trước khi đăng ký."},
+    {"id":"cost-github","item":"GitHub Foundations","category":"Certification","amount":0,"currency":"USD","status":"Optional","note":"Ưu tiên nếu lấy được student voucher."},
+    {"id":"cost-hosting","item":"Homelab hosting","category":"Infrastructure","amount":0,"currency":"USD","status":"Active","note":"Không tính chi phí sunk hardware/internet/điện hiện có."}
+  ],
+  "notes": {
+    "northStar": "Hiểu hệ thống trước, dùng AI làm đòn bẩy sau.",
+    "aiRule": "AI sửa code → đọc git diff → trace data flow → test → mới commit."
+  }
+}
