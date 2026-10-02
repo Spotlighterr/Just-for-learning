@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#f7f9fc" />
+  <title>BuilderOS — Finance × Data × Software × AI</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">B</div>
+        <div>
+          <strong>BuilderOS</strong>
+          <span>Learning system</span>
+        </div>
+      </div>
+
+      <nav id="nav" class="nav"></nav>
+
+      <div class="sidebar-note">
+        <div class="eyebrow">North star</div>
+        <p>Hiểu hệ thống trước. Dùng AI làm đòn bẩy sau.</p>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <div class="eyebrow">Finance × Data × Software × AI</div>
+          <h1 id="page-title">Today</h1>
+        </div>
+        <div class="top-actions">
+          <div id="sync-pill" class="sync-pill" title="Trạng thái đồng bộ">
+            <span class="dot"></span><span id="sync-label">Đang kết nối…</span>
+          </div>
+          <button class="button ghost" id="local-snapshot-btn">Lưu local</button>
+          <button class="button" id="export-btn">Backup JSON</button>
+          <label class="button ghost file-button">
+            Restore
+            <input id="restore-input" type="file" accept="application/json,.json" hidden />
+          </label>
+        </div>
+      </header>
+
+      <div id="conflict-banner" class="conflict-banner hidden">
+        <div>
+          <strong>Phát hiện dữ liệu khác nhau giữa máy này và server.</strong>
+          <span>Chọn bản bạn muốn giữ.</span>
+        </div>
+        <div class="row gap-sm">
+          <button id="use-server-btn" class="button ghost">Dùng bản server</button>
+          <button id="overwrite-server-btn" class="button danger">Ghi đè server</button>
+        </div>
+      </div>
+
+      <section id="view" class="view"></section>
+    </main>
+  </div>
+
+  <div id="toast" class="toast" role="status"></div>
+  <script src="/app.js"></script>
+</body>
+</html>
