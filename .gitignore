@@ -1,3 +1,8 @@
+node_modules/
+.env
+.env.*
 data/state.json
+backups/
 *.tmp
+*.log
 .DS_Store
